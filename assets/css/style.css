@@ -1,0 +1,126 @@
+:root{
+    --color-grey: rgb(77, 76, 76);
+    --color-white: #FFF;
+    --color-lightGray: rgb(227, 227, 227);
+    --color-blue: #0099F6;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-lightGray);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.logoSmart img{
+    width: 35rem;
+    height: 45rem;
+    margin: 0;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+    }
+
+.cardLogin{
+    border: 1px solid var(--color-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-white);
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 15px 0;
+}
+
+.cardLogin a{
+    color: var(--color-blue);
+}
+
+.logoInsta{
+    height: 4rem;
+    width: 12rem;
+    padding-top: 10px 0;
+}
+
+.stay{
+    padding: 0 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stay a{
+    padding-top: 10px;
+    color: var(--color-white);
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 7rem;
+    padding-top: 15px;
+}
+
+.app img{
+    height: 3rem;
+    width: 10rem;
+}
+
+.stay button{
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 10px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--color-blue);
+    border: none;
+  }
+  p{
+    text-align: center;
+  }
+
+  .removeAccount{
+    color: var(--color-blue);
+  }
+
+  .user{
+    display: flex;
+    justify-content:space-around; 
+    margin-top: 10px;  
+  }
+
+  .user p{
+    padding: 0 8px;
+  }
+
+  .app p{
+    margin: 1rem 0;
+  }
